@@ -1,0 +1,31 @@
+.calculator{
+    margin-left: 50%;
+    margin-top: 12.5%;
+    background-color: blue;
+    position: absolute;
+    padding: 50px;
+    border-radius: 75px;
+}
+.display{
+    background-color: white;
+    border-color: black;
+    border-width: thick;
+    height: 100px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.keypad{
+    
+}
+button{
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    color: red;
+    background-color: green;
+    border: red;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}

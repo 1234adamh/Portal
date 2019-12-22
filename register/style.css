@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+}
+
+.box b{
+  font-size: 15px;
+  text-shadow: 2px 2px whitesmoke; 
+}
+.box h1, .massage{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: arial font;
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"]{
+ border: 2px solid #3498db;
+ background: none;
+ margin: 20px auto;
+ text-align: center;
+ display: block;
+ padding:13.5px 10px;
+ width: 200px;
+ outline: none; 
+ color: white;
+ border-radius: 25px;
+ transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus{
+ width: 280px;
+ border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+ border: 2px solid #2ecc71;
+ background: none;
+ margin: 20px auto;
+ text-align: center;
+ display: block;
+ padding:14px 40px;
+ outline: none;
+ color: white;
+ border-radius: 25px;
+ transition: 0.25s;
+}
+
+.box input[type = "submit"]:hover{
+  background: #2ecc71; 
+  color: black;
+  font-weight: bold;
+}
